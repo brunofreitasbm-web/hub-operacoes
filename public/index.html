@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hub de Operações — Sistema de gestão para franquias de chocolate</title>
+<meta name="description" content="Software de otimização de operação de franquias, com bipagem cega para conferência de NF-e, inventário mensal obrigatório, controle de ponto e concentrador de informações DISC para formar equipes de vendas.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <span class="nav-brand">Hub de Operações</span>
+  <button type="button" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <div class="nav-links">
+    <a href="#dores">O problema</a>
+    <a href="#funcionalidades">Funcionalidades</a>
+    <a href="#disc">DISC</a>
+    <a href="#precos">Preços</a>
+    <a href="#faq">Dúvidas</a>
+    <button type="button" class="btn btn-primary btn-sm" data-scroll-to-trial>Testar grátis</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero wrap">
+  <div>
+    <span class="tag tag-accent">Feito só para franqueados de chocolate</span>
+    <h1 class="hero-title">Sua loja perde dinheiro toda vez que alguém confere a entrega no olho.</h1>
+    <p class="hero-copy">O Hub de Operações bipa a nota fiscal pelo celular, acusa toda divergência na hora e atualiza sozinho seu estoque, validade, ponto e escala de equipe. Sem planilha. Sem caderno. Sem "vai que dá certo".</p>
+    <div class="hero-ctas">
+      <button type="button" class="btn btn-primary" data-scroll-to-trial>Testar grátis por 7 dias</button>
+      <a href="#simulador" class="btn btn-ghost">Ver a bipagem funcionando</a>
+    </div>
+    <p class="hero-fineprint">Sem cartão de crédito · Acesso completo · Cancele quando quiser · 📱 100% otimizado para uso diário no celular</p>
+  </div>
+  <div class="card hero-panel elev-lg">
+    <span class="card-kicker">Painel da loja — agora</span>
+    <h3 class="card-title hero-panel-title">Conferência da entrega de hoje</h3>
+    <div class="hero-panel-stats">
+      <div class="hero-panel-stat">
+        <div class="hero-panel-stat-label">Divergência</div>
+        <div class="hero-panel-stat-value" style="color: var(--tone-success-line);">R$ 0,00</div>
+      </div>
+      <div class="hero-panel-stat">
+        <div class="hero-panel-stat-label">Itens bipados</div>
+        <div class="hero-panel-stat-value">312 / 312</div>
+      </div>
+    </div>
+    <div class="hero-panel-note"><strong>Validade:</strong> 2 lotes de trufa vencem em 5 dias. Mova para promoção antes de virar perda.</div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- STAT ROW -->
+<section class="stat-row wrap">
+  <div class="stat-row-grid">
+    <div>
+      <p class="stat-value">1.200</p>
+      <p class="stat-label">Franqueados no seu nicho</p>
+    </div>
+    <div>
+      <p class="stat-value">4.600</p>
+      <p class="stat-label">Lojas na rede</p>
+    </div>
+    <div>
+      <p class="stat-value">1</p>
+      <p class="stat-label">Sistema construído só para essa operação</p>
+    </div>
+    <div>
+      <p class="stat-value">7 dias</p>
+      <p class="stat-label">De teste grátis, sem cartão</p>
+    </div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- DORES VS SOLUÇÃO -->
+<section id="dores" class="section wrap">
+  <span class="tag tag-outline section-tag">O problema real</span>
+  <h2 class="section-title" style="max-width: 20ch;">Planilha e caderno não seguram uma operação de loja física</h2>
+  <p class="section-lead">Todo mês que passa no "jeito antigo" é margem saindo pela porta dos fundos.</p>
+  <div class="compare-grid">
+    <div class="compare-col">
+      <h3>Do jeito antigo</h3>
+      <p class="compare-item is-pain">Conferência de entrega no olho: sobra e falta que ninguém percebe até fechar o mês no vermelho.</p>
+      <p class="compare-item is-pain">Planilha ou caderno que qualquer pessoa edita, apaga ou perde.</p>
+      <p class="compare-item is-pain">Validade descoberta tarde demais, quando o produto já virou perda total.</p>
+      <p class="compare-item is-pain">Contratação de equipe no feeling, sem saber quem realmente vende melhor.</p>
+    </div>
+    <div class="compare-col is-solution">
+      <h3>Com o Hub de Operações</h3>
+      <p class="compare-item is-fix">Bipagem cega pelo celular: toda divergência aparece na tela, na hora da entrega.</p>
+      <p class="compare-item is-fix">Um banco de dados central que não se apaga e não depende de uma pessoa só.</p>
+      <p class="compare-item is-fix">Alerta de validade automático, com antecedência para agir.</p>
+      <p class="compare-item is-fix">Contratação orientada pelo perfil DISC de cada candidato, não em achismo.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- FUNCIONALIDADES -->
+<section id="funcionalidades" class="section wrap" style="padding-bottom: 32px;">
+  <span class="tag tag-outline section-tag">O que o sistema faz</span>
+  <h2 class="section-title" style="max-width: 24ch;">Uma bipagem alimenta cinco controles ao mesmo tempo</h2>
+  <p class="features-note">📱 Roda direto no navegador do celular usado na loja — sem instalar aplicativo, sem treinamento longo.</p>
+
+  <div class="feature-row">
+    <p class="feature-index">01</p>
+    <h3 class="feature-title">Conferência por bipagem</h3>
+    <p class="feature-desc">Aponte o celular para o código de barras. O sistema concilia automaticamente com a nota fiscal e acusa qualquer falta ou sobra na hora — sem contar item por item na mão.</p>
+    <img class="feature-img" src="assets/print-conferencia.png" alt="Print da tela de conferência por bipagem">
+  </div>
+
+  <div class="feature-row">
+    <p class="feature-index">02</p>
+    <h3 class="feature-title">Inventário mensal obrigatório</h3>
+    <p class="feature-desc">A contagem mensal obrigatória sai pela bipagem: total de produtos, itens críticos, em alerta e no prazo, prontos para concluir e exportar.</p>
+    <img class="feature-img" src="assets/print-inventario.png" alt="Print da tela de estoque em tempo real">
+  </div>
+
+  <div class="feature-row">
+    <p class="feature-index">03</p>
+    <h3 class="feature-title">Controle de validade</h3>
+    <p class="feature-desc">Alertas automáticos antes do vencimento de cada lote, para você agir — promoção, troca ou devolução — antes de virar perda.</p>
+    <img class="feature-img" src="assets/print-inventario.png" alt="Print da tela de controle de validade">
+  </div>
+
+  <div class="feature-row">
+    <p class="feature-index">04</p>
+    <h3 class="feature-title">Controle de ponto</h3>
+    <p class="feature-desc">Entrada, intervalo e saída pelo celular, com GPS e biometria facial, seguindo a portaria do Ministério do Trabalho — folha pronta para enviar direto ao contador.</p>
+    <img class="feature-img" src="assets/print-ponto.png" alt="Print da tela de controle de ponto">
+  </div>
+
+  <div class="feature-row">
+    <p class="feature-index">05</p>
+    <h3 class="feature-title">Gestão de equipe por DISC</h3>
+    <p class="feature-desc">Perfil comportamental de cada colaborador, usado para orientar a contratação e decidir quem fica na venda, no caixa ou na conferência.</p>
+    <img class="feature-img" src="assets/print-disc.png" alt="Print da tela de gestão de equipe por DISC">
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- NOTIFICAÇÕES -->
+<section class="section wrap">
+  <span class="tag tag-outline section-tag">Comunicação automática</span>
+  <h2 class="section-title" style="font-size: clamp(26px,3vw,38px); margin-bottom: 32px; max-width: 26ch;">O sistema avisa. Você não precisa ficar cobrando.</h2>
+  <div class="notif-grid">
+    <div class="notif-item">Abertura de loja registrada</div>
+    <div class="notif-item">Fechamento de loja registrado</div>
+    <div class="notif-item">Conferência de entrega concluída ou com divergência</div>
+    <div class="notif-item">Pendências em aberto</div>
+    <div class="notif-item">Inventário mensal obrigatório concluído</div>
+    <div class="notif-item">Aviso automático de início de turno para consultoras</div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- SIMULADOR -->
+<section id="simulador" class="section wrap">
+  <span class="tag tag-outline section-tag">Veja funcionando</span>
+  <h2 class="section-title" style="margin-bottom: 40px; max-width: 22ch;">A bipagem e a meta hora a hora, ao vivo</h2>
+  <div class="sim-grid">
+
+    <div class="card sim-card elev-md">
+      <span class="card-kicker">Conferência de entrega</span>
+      <h3 class="card-title sim-title">NF #4892 — Distribuidora de Chocolates</h3>
+      <p class="sim-hint">Clique para simular a bipagem de um item da nota.</p>
+      <button type="button" id="scan-btn" class="btn btn-primary btn-block">Bipar próximo item</button>
+      <div id="scan-list" class="sim-scanned"></div>
+    </div>
+
+    <div class="card sim-card elev-md">
+      <span class="card-kicker">Meta hora a hora</span>
+      <h3 class="card-title sim-title" style="margin-bottom: 12px;">Meta do dia: R$ 3.000,00</h3>
+      <img class="sim-img" src="assets/print-meta.png" alt="Print da tela de meta hora a hora no celular">
+      <div class="sim-meta-row">
+        <span class="sim-meta-label">Acumulado hoje</span>
+        <span id="meta-total" class="sim-meta-value">R$ 1.250,00</span>
+      </div>
+      <div class="sim-progress-track"><div id="meta-fill" class="sim-progress-fill" style="width: 90%;"></div></div>
+      <p id="meta-percent" class="sim-progress-note">90% da meta das 11h–12h</p>
+      <div class="field" style="margin-bottom: 12px;">
+        <label for="sale-input">Simular venda registrada agora</label>
+        <div class="sim-sale-row">
+          <input id="sale-input" class="input" type="number" placeholder="Valor em R$">
+          <button type="button" id="register-sale-btn" class="btn btn-secondary">Registrar</button>
+        </div>
+      </div>
+      <div id="meta-alert" class="sim-alert">🔥 Faltam R$ 50,00 para bater a meta das 11h–12h.</div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- DISC -->
+<section id="disc" class="section wrap disc-section">
+  <div>
+    <span class="tag tag-outline section-tag">Gestão de equipe</span>
+    <h2 class="section-title" style="max-width: 20ch;">Pare de contratar gente errada para o cargo errado</h2>
+    <p class="disc-lead">O Hub de Operações concentra as informações de DISC de cada colaborador e mostra onde ele rende mais: quem é Influente vai para a recepção, quem é Conforme vai para o fechamento de caixa e a conferência de notas.</p>
+  </div>
+  <div class="card disc-card elev-md">
+    <h3 class="card-title disc-card-title">Toque em um perfil</h3>
+    <div class="disc-grid">
+      <button type="button" class="disc-btn is-active" data-letter="D">
+        <span class="disc-letter">D</span>
+        <span class="disc-name">Dominância</span>
+      </button>
+      <button type="button" class="disc-btn" data-letter="I">
+        <span class="disc-letter">I</span>
+        <span class="disc-name">Influência</span>
+      </button>
+      <button type="button" class="disc-btn" data-letter="S">
+        <span class="disc-letter">S</span>
+        <span class="disc-name">Estabilidade</span>
+      </button>
+      <button type="button" class="disc-btn" data-letter="C">
+        <span class="disc-letter">C</span>
+        <span class="disc-name">Conformidade</span>
+      </button>
+    </div>
+    <div class="disc-result"><strong id="disc-result-label">Dominância (D):</strong><span id="disc-result-text"> foco em metas e fechamento direto. Ótimo para vendas corporativas e negociação de grandes pedidos.</span></div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- SEGURANÇA -->
+<section class="section wrap">
+  <span class="tag tag-outline section-tag">Seus dados</span>
+  <h2 class="section-title" style="margin-bottom: 40px; max-width: 22ch;">Dado de loja não some, e cartão não passa perto do nosso servidor</h2>
+  <div class="triple-grid">
+    <div class="triple-item">
+      <h3>Conforme LGPD</h3>
+      <p>Seus dados de vendas, equipe e clientes ficam sob seu controle, com acesso restrito por conta.</p>
+    </div>
+    <div class="triple-item">
+      <h3>Backup diário automático</h3>
+      <p>Histórico completo em nuvem. Nenhum operador consegue apagar o passado da loja.</p>
+    </div>
+    <div class="triple-item">
+      <h3>Pagamento via Stripe</h3>
+      <p style="margin-bottom: 12px;">Sua assinatura é processada pela Stripe. Não guardamos número de cartão em nenhum servidor nosso.</p>
+      <span class="tag tag-neutral">🔒 Pagamento seguro Stripe</span>
+    </div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- INDEPENDÊNCIA DE SISTEMAS -->
+<section class="section wrap">
+  <span class="tag tag-outline section-tag">Como os dados entram no sistema</span>
+  <h2 class="section-title" style="max-width: 26ch;">O Hub de Operações não é ligado automaticamente aos sistemas da franqueadora</h2>
+  <p class="section-lead" style="max-width: 66ch;">Não existe integração direta com a intranet da rede. É o franqueado ou o gerente da loja quem exporta os dados de lá e importa no Hub de Operações — isso preserva o uso da marca e dos sistemas próprios da franqueadora, sem qualquer vínculo automático.</p>
+  <div class="triple-grid">
+    <div class="triple-item">
+      <h3>Notas fiscais faturadas</h3>
+      <p>Baixe o XML da NF-e na intranet da franqueadora e importe no Hub de Operações para liberar a conferência por bipagem.</p>
+    </div>
+    <div class="triple-item">
+      <h3>Metas da loja</h3>
+      <p>A meta definida pela franqueadora é cadastrada manualmente pelo franqueado ou gerente — o sistema não puxa esse número sozinho.</p>
+    </div>
+    <div class="triple-item">
+      <h3>Perfis DISC</h3>
+      <p>O levantamento comportamental é feito e mantido dentro do Hub de Operações, independente de qualquer sistema de RH da rede.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- PREÇOS -->
+<section id="precos" class="section wrap">
+  <span class="tag tag-outline section-tag">Investimento</span>
+  <h2 class="section-title">Um preço por loja. Sem taxa de implantação.</h2>
+  <p class="section-lead">7 dias grátis em qualquer plano, sem pedir cartão.</p>
+  <div class="pricing-grid">
+    <div class="card price-card elev-sm">
+      <span class="card-kicker">1 a 3 lojas</span>
+      <h3 class="card-title price-card-title">Essencial</h3>
+      <p class="price-value"><span class="price-amount">R$ 197</span><span class="price-period"> /loja/mês</span></p>
+      <div class="price-features">
+        <span>✓ Conferência por bipagem ilimitada</span>
+        <span>✓ Estoque e validade automáticos</span>
+        <span>✓ Ponto e escala de equipe</span>
+        <span>✓ Perfis DISC da equipe</span>
+      </div>
+      <button type="button" class="btn btn-secondary btn-block" data-checkout-plan="essencial" data-error-target="price-error-essencial">Testar grátis</button>
+      <p id="price-error-essencial" class="price-error" hidden></p>
+    </div>
+    <div class="card price-card is-featured elev-lg">
+      <span class="tag tag-accent price-card-badge">Mais escolhido</span>
+      <span class="card-kicker">4 lojas ou mais</span>
+      <h3 class="card-title price-card-title">Rede</h3>
+      <p class="price-value"><span class="price-amount">R$ 149</span><span class="price-period"> /loja/mês</span></p>
+      <div class="price-features">
+        <span>✓ Tudo do plano Essencial</span>
+        <span>✓ Painel consolidado multi-loja</span>
+        <span>✓ Comparativo de performance entre lojas</span>
+        <span>✓ Suporte prioritário</span>
+      </div>
+      <button type="button" class="btn btn-primary btn-block" data-checkout-plan="rede" data-error-target="price-error-rede">Testar grátis</button>
+      <p id="price-error-rede" class="price-error" hidden></p>
+    </div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- ESCASSEZ -->
+<section class="section wrap" style="padding: 48px clamp(20px,5vw,72px);">
+  <div class="scarcity-box">
+    <div>
+      <h3>Exclusividade por região</h3>
+      <p>Para manter suporte dedicado nesse nicho, limitamos o número de franqueados ativos por praça. Depois que sua região fecha, a próxima vaga entra em espera.</p>
+    </div>
+    <button type="button" class="btn btn-primary" style="white-space: nowrap;" data-scroll-to-trial>Reservar minha região</button>
+  </div>
+</section>
+
+<hr class="hr">
+
+<!-- FAQ -->
+<section id="faq" class="section wrap">
+  <span class="tag tag-outline section-tag">Dúvidas</span>
+  <h2 class="section-title" style="margin-bottom: 40px;">Perguntas frequentes</h2>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question" aria-expanded="false">O sistema puxa os dados direto da intranet da franqueadora?<span class="faq-icon">+</span></button>
+    <p class="faq-answer" hidden>Não. O Hub de Operações não tem integração automática com a franqueadora. O franqueado ou gerente exporta as notas fiscais, metas e demais dados da intranet da rede e importa manualmente no sistema, preservando o uso da marca e dos sistemas próprios da franqueadora.</p>
+  </div>
+  <div class="faq-item">
+    <button type="button" class="faq-question" aria-expanded="false">Preciso comprar um leitor de código de barras?<span class="faq-icon">+</span></button>
+    <p class="faq-answer" hidden>Não. A câmera do celular funciona como leitor. Basta abrir o aplicativo e apontar para o código de barras do produto.</p>
+  </div>
+  <div class="faq-item">
+    <button type="button" class="faq-question" aria-expanded="false">Os dados da loja podem ser apagados por um funcionário?<span class="faq-icon">+</span></button>
+    <p class="faq-answer" hidden>Não. O histórico fica em backup automático na nuvem e não pode ser excluído por operadores comuns — só a auditoria completa fica registrada.</p>
+  </div>
+  <div class="faq-item">
+    <button type="button" class="faq-question" aria-expanded="false">O DISC substitui uma avaliação de RH?<span class="faq-icon">+</span></button>
+    <p class="faq-answer" hidden>Não substitui, complementa. Ele indica onde cada perfil comportamental rende mais dentro da operação da loja, para orientar a escala do dia a dia.</p>
+  </div>
+  <div class="faq-item">
+    <button type="button" class="faq-question" aria-expanded="false">Funciona com mais de uma loja na mesma conta?<span class="faq-icon">+</span></button>
+    <p class="faq-answer" hidden>Sim. O plano Rede foi feito para isso: um painel único mostra estoque, ponto e vendas de todas as lojas.</p>
+  </div>
+  <div class="faq-item">
+    <button type="button" class="faq-question" aria-expanded="false">Como funciona a cobrança?<span class="faq-icon">+</span></button>
+    <p class="faq-answer" hidden>A assinatura é mensal, por loja, processada com segurança pela Stripe. Você pode cancelar quando quiser, sem multa.</p>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="trial" class="cta-final">
+  <div class="wrap">
+    <h2>Sua próxima entrega já pode chegar sem prejuízo.</h2>
+    <p>Comece agora com 7 dias grátis. Sem cartão, sem contrato de fidelidade.</p>
+    <form id="trial-form" class="cta-final-form">
+      <input id="trial-email" class="input" type="email" placeholder="seu@email.com" required>
+      <button type="submit" id="trial-submit-btn" class="btn btn-ghost">Começar teste grátis</button>
+    </form>
+    <p id="trial-error" class="cta-final-error" hidden></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Hub de Operações. Sistema de gestão para franqueados de chocolate. Pagamentos processados via Stripe.
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

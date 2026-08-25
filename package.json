@@ -1,0 +1,10 @@
+{
+  "name": "hub-de-operacoes-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Landing page do Hub de Operações — sistema de gestão para franqueados de chocolate.",
+  "dependencies": {
+    "@netlify/functions": "^3.0.0",
+    "stripe": "^17.0.0"
+  }
+}
