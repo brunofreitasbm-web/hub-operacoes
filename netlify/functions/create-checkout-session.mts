@@ -57,7 +57,10 @@ export default async (req: Request, context: Context) => {
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
       line_items: [{ price: priceId, quantity: 1 }],
-      subscription_data: { trial_period_days: 7 },
+      subscription_data: {
+        trial_period_days: 7,
+        trial_settings: { end_behavior: { missing_payment_method: 'cancel' } },
+      },
       payment_method_collection: 'if_required',
       customer_email: email || undefined,
       allow_promotion_codes: true,
